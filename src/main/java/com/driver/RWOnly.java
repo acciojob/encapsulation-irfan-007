@@ -1,5 +1,13 @@
 package com.driver;
 
 public class RWOnly {
-    private String name="this is a private message";
+    private String name="I am private";
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
 }
